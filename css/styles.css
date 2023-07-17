@@ -1,0 +1,217 @@
+body{
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+:root{
+    --brand-color: #434455;
+}
+
+
+
+
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.logo link{
+    text-decoration: none;
+}
+.logo .part_logo{
+    color: #2e2f42;
+}
+.blank{
+    list-style: none
+}
+.blank .blank_name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+.link{
+    text-decoration:none;
+}
+.blank_name:hover,
+.blank_name:focus{
+    color: #404bb;
+}
+
+
+
+.information{
+    font-style: normal;
+}
+.address{
+    list-style: none;
+}
+.contact{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:  #434455;
+}
+.address .contact:hover,
+.address .contact:focus{
+    color: #404bbf;
+}
+.name{
+    background-color: #2e2f42;
+}
+.osnova{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.osnova_button{
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+.osnova_button:hover,
+.osnova_button:focus{
+    background-color: #404BBF;
+}
+.blank .blank_name:hover,
+.blank .blank_name:focus{
+color: #404bbf;
+}
+.descreption_name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.paragrafe{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:  #434455;
+}
+
+
+
+
+.doing{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:  #2e2f42;
+}
+
+
+.foursection{
+    background-color: #F4F4FD
+}
+.team{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.team_profesion{
+    background-color: #FFFFFF;
+}
+.team_name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.team_paragrafe{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:  #434455;
+}
+
+
+
+.end{
+    background-color:  #2e2f42;
+}
+.off{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.off link{
+    text-decoration: none;
+}
+.off .part_off{
+    color: #2e2f42;
+}
+.off .part_off{
+    color:  #f4f4fd;
+}
+.informations{
+    line-height: 1.5;
+    color:  #F4F4FD;
+    letter-spacing: 0.02em;
+}
+/* Portfolio */
+.one_section{
+    list-style: none;
+
+}
+.buttons_name{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background-color: #F4F4FD;
+    cursor: pointer;
+}
+.main_buttons .buttons_name:hover,
+.main_buttons .buttons_name:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+.photo{
+    list-style: none;
+}
+.photo.photo_list{
+    text-decoration: none;
+}
+.link > h2{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.link > p{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.list{
+    list-style: none
+}
