@@ -306,7 +306,7 @@ color: #404bbf;
     column-gap: 24px;
     row-gap: 48px;
 }
-.number_par{
+.part_number_par{
     width: calc((100% - 48px) / 3);
 }
 .part_number_par{
