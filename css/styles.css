@@ -82,7 +82,7 @@ body{
 .heaer-link{
     align-items: center;
 }
-conteiner{
+container{
     width: 1158px;
     margin: 0;
     width: 1158px;
@@ -320,4 +320,8 @@ color: #404bbf;
 
 img{
     display: block;
+}
+.visually-hidden{
+    position: fixed;
+    transform: scale(0);
 }
