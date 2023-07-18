@@ -9,7 +9,8 @@ body{
 
 
 
-/* heder */
+/* HEADER */
+/* Top Line */
 .logo{
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -48,8 +49,30 @@ body{
 .blank_name:focus{
     color: #404bb;
 }
+.cap{
+    border-bottom: 1px solid #e7e9fc;
+    border-radius: 4px;
+}
+.headers{
+    display: flex;
+}
+.header-link{
+    display: flex;
+    align-items: center;
+}
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.blank .blank_name:hover,
+.blank .blank_name:focus{
+color: #404bbf;
+}
 
 
+
+/* Address */
 .information{
     font-style: normal;
 }
@@ -68,28 +91,16 @@ body{
 .address .contact:focus{
     color: #404bbf;
 }
+
+
+
+/* MAIN */
+
+/* Section 1 */
 .name{
     background-color: #2e2f42;
     padding: 188px 0;
-
 }
-.cap{
-    border-bottom: 1px solid #e7e9fc;
-    border-radius: 4px;
-}
-.headers{
-    display: flex;
-}
-.header-link{
-    display: flex;
-    align-items: center;
-}
-.container{
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-/* main */
 .osnova{
     font-size: 56px;
     line-height: 1.07;
@@ -115,17 +126,15 @@ body{
     border-radius: 4px;
     cursor: pointer;
 }
-.name_two{
-    padding: 120px 0;
-
-}
 .osnova_button:hover,
 .osnova_button:focus{
     background-color: #404BBF;
 }
-.blank .blank_name:hover,
-.blank .blank_name:focus{
-color: #404bbf;
+
+
+/* Section 2 */
+.name_two{
+    padding: 120px 0;
 }
 .descreption{
     width: calc((100% - 72px) / 4);
@@ -147,7 +156,8 @@ color: #404bbf;
     color:  #434455;
 }
 
-/* section3 */
+
+/* Section 3 */
 .name_three{
     padding-bottom: 120px;
 }
@@ -169,7 +179,11 @@ color: #404bbf;
 .element_images{
     width: calc((100% - 48px) / 3);
 }
-.foursection{
+
+
+
+/* Section 4 */
+.name_four{
     background-color: #F4F4FD;
     padding: 120px 0;
 }
@@ -212,7 +226,9 @@ color: #404bbf;
 }
 
 
-/* footer */
+
+
+/* FOOTER */
 .end{
     background-color:  #2e2f42;
     padding: 100px 0;
@@ -243,7 +259,13 @@ color: #404bbf;
     letter-spacing: 0.02em;
     max-width: 264px;
 }
+
+
+
+
+
 /* Portfolio */
+/* MAIN */
 .one_section{
     list-style: none;
     padding-top: 96px; 
@@ -260,6 +282,7 @@ color: #404bbf;
     cursor: pointer;
     padding: 12px 24px;
     border: 1px solid #e7e9fc;
+    border-radius: 4px; 
 }
 .main_buttons{
     display: flex;
@@ -283,6 +306,9 @@ color: #404bbf;
     column-gap: 24px;
     row-gap: 48px;
     width: calc((100% - 48px) / 3); 
+}
+.number_par{
+    width: calc((100% - 48px) / 3);
 }
 .part_number_par{
     padding: 32px 16px;
