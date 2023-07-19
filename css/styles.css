@@ -55,6 +55,7 @@ body{
 }
 .headers{
     display: flex;
+    justify-content: space-between;
 }
 .header-link{
     display: flex;
@@ -64,10 +65,20 @@ body{
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .blank .blank_name:hover,
 .blank .blank_name:focus{
 color: #404bbf;
+}
+.row-flex{
+    flex-direction: row;
+}
+.space-between{
+    justify-content: space-between;
 }
 
 
@@ -100,7 +111,6 @@ color: #404bbf;
 .name{
     background-color: #2e2f42;
     padding: 188px 0;
-    justify-content: center;
 }
 .osnova{
     font-size: 56px;
@@ -137,9 +147,15 @@ color: #404bbf;
 .name_two{
     padding: 120px 0;
 }
+.descr{
+    display: flex;
+    justify-content: space-between;
+
+}
 .descreption{
     width: calc((100% - 72px) / 4);
     display: flex;
+    flex-direction: column;
     gap: 24px;
 }
 .descreption_name{
