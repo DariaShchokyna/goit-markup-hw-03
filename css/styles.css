@@ -44,6 +44,7 @@ body{
 }
 .link{
     text-decoration:none;
+    display: inline-block;
 }
 .blank_name:hover,
 .blank_name:focus{
@@ -150,6 +151,7 @@ color: #404bbf;
 .descr{
     display: flex;
     justify-content: space-between;
+    gap: 24px;
 
 }
 .descreption{
