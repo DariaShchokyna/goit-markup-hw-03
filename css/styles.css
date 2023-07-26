@@ -62,10 +62,6 @@ body {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 .blank .blank_name:hover,
 .blank .blank_name:focus {
