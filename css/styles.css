@@ -85,11 +85,9 @@ body {
   border-bottom: 1px solid var(--accent)
 }
 .headers {
-  padding: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 15px;   
 }
 .header-link {
   background: var(--white-background);
