@@ -145,7 +145,6 @@ body {
   justify-content: space-between;
   gap: 24px;
   margin: 0 auto;
-  padding: 0 15px;
 }
 .descreption {
   width: calc((100% - 72px) / 4);
