@@ -109,7 +109,6 @@ body {
 }
 .row-flex {
   flex-direction: row;
-  padding: 0;
 }
 .space-between {
   justify-content: space-between;
@@ -117,7 +116,6 @@ body {
 .link {
   text-decoration: none;
   font-style: normal;
-  margin: 0;
 }
 
 img {
