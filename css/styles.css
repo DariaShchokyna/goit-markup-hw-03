@@ -186,7 +186,7 @@ body {
 }
 
 /* Section 4 */
-.h3, .p, .ul {
+.h3, .p, .ul, .people {
   margin: 0;
   padding-left: 0;
 }
