@@ -69,6 +69,7 @@ body {
 }
 .row-flex {
   flex-direction: row;
+  padding: 0;
 }
 .space-between {
   justify-content: space-between;
@@ -144,6 +145,7 @@ body {
   justify-content: space-between;
   gap: 24px;
   margin: 0 auto;
+  padding-left: 0;
 }
 .descreption {
   width: calc((100% - 72px) / 4);
