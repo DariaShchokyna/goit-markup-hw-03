@@ -32,6 +32,9 @@ main {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+p, h1, h2, h3, h4, h5, h6{
+  margin: 0;
+}
 
 /* HEADER */
 /* Top Line */
@@ -458,7 +461,7 @@ img {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.name-heder{
+.name-heder {
   margin-bottom: 8px;
 }
 
