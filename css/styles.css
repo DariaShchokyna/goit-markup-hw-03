@@ -163,6 +163,15 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.main{
+  color: var(--slate, #434455);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.32px;
+}
 .address .contact:hover,
 .address .contact:focus {
   color: #404bbf;
@@ -207,8 +216,6 @@ img {
   margin: 0 auto;
   margin-top: 48px;
   border-radius: 4px;
-  /* border-style: none;
-    border-radius: 4px; */
   border-bottom-color: var(--primary_brand);
   min-width: 169px;
   border: none;
@@ -227,10 +234,8 @@ img {
 
 /* Section 2 */
 .name_two {
-  width: 1128px;
-  height: 104px;
   padding: 120px 0;
-  margin: 0 156px;
+ 
 }
 .visually-hidden {
   position: absolute;
@@ -255,19 +260,21 @@ img {
 .descreption_name {
   color: var(--dark);
   font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2em;
-  letter-spacing: 0.02em;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+letter-spacing: 0.4px;
 }
 .preferences {
   margin-bottom: 8px;
 }
 .paragrafe {
   color: var(--slate, #434455);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5em;
-  letter-spacing: 0.02em;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.32px;
 }
 .preferenses-descr {
   margin: 0;
@@ -279,20 +286,20 @@ img {
   display: flex;
   align-items: center;
    padding-bottom: 120px;
-   margin-top: 120px;
 }
 .three_section{
   width: 1128px;
   height: 412px;
 }
 .doing {
-  color: var(--dark);
-  text-align: center;
+  color: var(--navyblue, #2E2F42);
+text-align: center;
   font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11em;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.72px;
+text-transform: capitalize;
 }
 .achievement {
   margin-bottom: 72px;
@@ -318,17 +325,17 @@ img {
   padding: 120px 0;
 }
 .team {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
+  font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.72px;
+text-transform: capitalize;
+text-align: center;
 }
-.team-header {
-  margin-bottom: 72px;
-}
+
 .people {
   display: flex;
   justify-content: space-between;
@@ -364,6 +371,11 @@ img {
 .team_paragrafe {
   text-align: center;
   margin: 0;
+  font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.32px;
 }
 
 /* FOOTER */
@@ -380,32 +392,37 @@ img {
   padding-bottom: 100px;
 }
 .off {
-  color: var(--primary_brand);
-  font-size: 18px;
-  text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
   margin-bottom: 16px;
   display: inline-block;
+
+  color: var(--iris, #4D5AE5);
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 21px; 
+letter-spacing: 0.54px;
+text-transform: uppercase;
 }
 .part_off {
-  color: var(--light);
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.1666;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
+  color: var(--cloud, #F4F4FD);
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 21px; 
+letter-spacing: 0.54px;
+text-transform: uppercase;
 }
 
 .informations {
-  color: var(--light);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.02em;
+  color: var(--cloud, #F4F4FD);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+letter-spacing: 0.32px;
 
   width: 264px;
   margin: 0;
@@ -420,12 +437,15 @@ img {
   width: 1440px;
 }
 .buttons_name {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--iris, #4D5AE5);
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.64px;
+
   background-color: #f4f4fd;
   cursor: pointer;
   padding: 12px 24px;
@@ -484,6 +504,15 @@ margin-bottom: 8px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.heading_paragrafe{
+  color: var(--slate, #434455);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
 .link > p {
   font-size: 16px;
