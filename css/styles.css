@@ -282,8 +282,6 @@ letter-spacing: 0.32px;
 
 /* Section 3 */
 .name_three{
-  width: 1440px;
-  display: flex;
   align-items: center;
    padding-bottom: 120px;
 }
