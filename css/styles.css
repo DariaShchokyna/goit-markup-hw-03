@@ -490,13 +490,7 @@ letter-spacing: 0.4px;
 margin-bottom: 8px;
 }
 
-.photo {
-  list-style: none;
-}
-.photo.photo_list {
-  text-decoration: none;
-}
-.link .link > h2 {
+h2 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
